@@ -8,7 +8,7 @@ matplotlib >= 3.0.0
 
 ## Training model 
 ```
-python3 main.py --model=resnet56 --norm_type=GN --num_groups=4
+python3 main.py --model=WGAN --dataset=CelebA --clipping=0.01 --num_critic=5
 ```
 
 ## Show results
